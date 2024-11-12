@@ -1,0 +1,27 @@
+.page-LikeDeslike{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    flex-direction: column;
+
+    .header{
+      margin-bottom: 30px;
+      background-color: rgb(133, 124, 124);
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .props{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 20px;
+      width: 100%;
+    }
+}
