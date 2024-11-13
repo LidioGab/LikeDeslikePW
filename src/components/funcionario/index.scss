@@ -25,5 +25,34 @@
             font-size: 14px;
             margin: 10px;
         }
+        button img{
+            height: 30px;
+        }
     }
+
+    .like, .deslike{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button{
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    .deslike{
+        button{
+            rotate: 180deg;
+        }
+    }
+
+    
 }
