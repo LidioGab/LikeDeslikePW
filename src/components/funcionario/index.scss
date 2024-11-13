@@ -5,13 +5,25 @@
         justify-content: center;
         align-items: center;
         margin: 10px;
+        background-color: #ffff ;
+        padding: 50px;
+        border-radius: 10px;
     }
 
     .main img{
-        height: 300px;
+        height: 200px;
         border-radius: 50%;
         object-fit: cover;
         aspect-ratio: 1/1;
 
+    }
+
+    .curtidas{
+        display: flex;
+
+        h1{
+            font-size: 14px;
+            margin: 10px;
+        }
     }
 }
