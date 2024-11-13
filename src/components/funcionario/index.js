@@ -17,18 +17,18 @@ export default function Funcionario({imgURL, nomeFunc, codigoFuncionario}) {
     return(
         <body className='prop-func'>
             <main className='main'>
-                <img src={imgURL}></img>
+                <img alt='fotoFuncionario' src={imgURL}></img>
                 <h2>{nomeFunc}</h2>
                 <p>{codigoFuncionario}</p>
 
                 <div className='curtidas'>
                     <div className='like'>
                         <h1>like: {like}</h1>
-                        <button onClick={addLike}><img src={likeimg}></img></button>
+                        <button onClick={addLike}><img alt='deslike' src={likeimg}></img></button>
                     </div>
                     <div className='deslike'>
                         <h1>deslike: {deslike}</h1>
-                        <button onClick={addDeslike}><img src={likeimg}></img></button>
+                        <button onClick={addDeslike}><img alt='deslike' src={likeimg}></img></button>
                     </div>
                 </div>
             </main>
